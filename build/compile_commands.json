@@ -1,0 +1,17 @@
+[
+{
+  "directory": "D:/pspro/C_C++_pro/SubjectResearch/GeneticAlgorithm/build",
+  "command": "D:\\pspro\\mingw64\\mingw64\\bin\\g++.exe -DGA_EXPORTS @CMakeFiles/GA.dir/includes_CXX.rsp -g -o CMakeFiles\\GA.dir\\src\\Chromosome.cpp.obj -c D:\\pspro\\C_C++_pro\\SubjectResearch\\GeneticAlgorithm\\src\\Chromosome.cpp",
+  "file": "D:/pspro/C_C++_pro/SubjectResearch/GeneticAlgorithm/src/Chromosome.cpp"
+},
+{
+  "directory": "D:/pspro/C_C++_pro/SubjectResearch/GeneticAlgorithm/build",
+  "command": "D:\\pspro\\mingw64\\mingw64\\bin\\g++.exe -DGA_EXPORTS @CMakeFiles/GA.dir/includes_CXX.rsp -g -o CMakeFiles\\GA.dir\\src\\GeneticAlgorithm.cpp.obj -c D:\\pspro\\C_C++_pro\\SubjectResearch\\GeneticAlgorithm\\src\\GeneticAlgorithm.cpp",
+  "file": "D:/pspro/C_C++_pro/SubjectResearch/GeneticAlgorithm/src/GeneticAlgorithm.cpp"
+},
+{
+  "directory": "D:/pspro/C_C++_pro/SubjectResearch/GeneticAlgorithm/build",
+  "command": "D:\\pspro\\mingw64\\mingw64\\bin\\g++.exe  @CMakeFiles/Demo.dir/includes_CXX.rsp -g -o CMakeFiles\\Demo.dir\\Main.cpp.obj -c D:\\pspro\\C_C++_pro\\SubjectResearch\\GeneticAlgorithm\\Main.cpp",
+  "file": "D:/pspro/C_C++_pro/SubjectResearch/GeneticAlgorithm/Main.cpp"
+}
+]

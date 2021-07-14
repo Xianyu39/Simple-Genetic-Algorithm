@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Chromosome.h
+iostream
+-
+
+D:/pspro/C_C++_pro/SubjectResearch/GeneticAlgorithm/src/Chromosome.cpp
+Chromosome.h
+D:/pspro/C_C++_pro/SubjectResearch/GeneticAlgorithm/src/Chromosome.h
+
