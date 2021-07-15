@@ -1,10 +1,12 @@
 #include <iostream>
-#include "Chromosome.h"
+#include "GeneticAlgorithm.h"
 using namespace std;
 
 int main() {
-    Chromosome c;
-    Chromosome::setProbabilities(0.1, 0.2);
+    GA ga(20);
+    // ga.test();
+    auto winner = ga.evolution(1000000);
+    cout << winner.g1 << ":" << winner.g2 << endl;
     cout << "Run successfully." << endl;
     return 0;
 }
