@@ -3,4 +3,5 @@
 
 CMakeFiles/Demo.dir/Main.cpp.obj
  ../include/Chromosome.h
+ ../include/GeneticAlgorithm.h
  D:/pspro/C_C++_pro/SubjectResearch/GeneticAlgorithm/Main.cpp

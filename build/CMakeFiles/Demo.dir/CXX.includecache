@@ -10,9 +10,19 @@
 iostream
 -
 
+../include/GeneticAlgorithm.h
+Chromosome.h
+../include/Chromosome.h
+iostream
+-
+vector
+-
+algorithm
+-
+
 D:/pspro/C_C++_pro/SubjectResearch/GeneticAlgorithm/Main.cpp
 iostream
 -
-Chromosome.h
-D:/pspro/C_C++_pro/SubjectResearch/GeneticAlgorithm/Chromosome.h
+GeneticAlgorithm.h
+D:/pspro/C_C++_pro/SubjectResearch/GeneticAlgorithm/GeneticAlgorithm.h
 

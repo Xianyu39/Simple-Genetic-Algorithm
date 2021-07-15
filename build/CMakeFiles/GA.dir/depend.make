@@ -4,5 +4,7 @@
 CMakeFiles/GA.dir/src/Chromosome.cpp.obj: ../include/Chromosome.h
 CMakeFiles/GA.dir/src/Chromosome.cpp.obj: ../src/Chromosome.cpp
 
+CMakeFiles/GA.dir/src/GeneticAlgorithm.cpp.obj: ../include/Chromosome.h
+CMakeFiles/GA.dir/src/GeneticAlgorithm.cpp.obj: ../include/GeneticAlgorithm.h
 CMakeFiles/GA.dir/src/GeneticAlgorithm.cpp.obj: ../src/GeneticAlgorithm.cpp
 

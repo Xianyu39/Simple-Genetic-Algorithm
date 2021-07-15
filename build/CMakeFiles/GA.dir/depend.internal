@@ -5,4 +5,6 @@ CMakeFiles/GA.dir/src/Chromosome.cpp.obj
  ../include/Chromosome.h
  D:/pspro/C_C++_pro/SubjectResearch/GeneticAlgorithm/src/Chromosome.cpp
 CMakeFiles/GA.dir/src/GeneticAlgorithm.cpp.obj
+ ../include/Chromosome.h
+ ../include/GeneticAlgorithm.h
  D:/pspro/C_C++_pro/SubjectResearch/GeneticAlgorithm/src/GeneticAlgorithm.cpp
