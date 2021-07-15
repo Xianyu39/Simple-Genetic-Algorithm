@@ -68,6 +68,11 @@ public:
         if (whetherMutate()) { g2 = randGene(); }
     }
 
+    /**
+     *@brief Recombining 2 chromosomes randomly.
+     *@param chrm1 chromosomes 1. 
+     *@param chrm2 chromosomes 2.
+    */
     static void recombine(Chromosome& chrm1, Chromosome& chrm2) {
         if (whetherRecombine()) {
             auto t = chrm1.g1;
