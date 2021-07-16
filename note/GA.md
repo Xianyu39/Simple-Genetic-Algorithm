@@ -18,7 +18,7 @@ For this problem, it's not so frustrated to find an appropriate way to model the
 
 - Gene: `int` x1, x2.
 - Chromosome: `class Chromosome`, contains 2 genes(`int`).
-- Fitness function: $G=\frac{C}{x_1^2+x_2^2}$ , $C$ is a constant to adjust $G$ value's range to make it more accurate.
+- Fitness function: $G=-(x_1^2+x_2^2)+C$ , $C$ is a constant to adjust $G$ value's range to make it more accurate.
 - Recombination: Exchange one of the gene, no more methods.
 - Mutation: random number generator, `rand() % 201 - 100`. Substitute a gene on chromosome randomly.
 
