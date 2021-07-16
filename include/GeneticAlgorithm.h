@@ -23,6 +23,7 @@ private:
 public:
     // Generating first genertion.
     GA(size_t population) :ppltn(population), gnrtn() {
+        Chromosome::setProbabilities(0.1, 0.2);
         for (size_t i = 0; i < ppltn; i++) {
             Chromosome c;
             c.g1 = Chromosome::randGene();
@@ -37,8 +38,9 @@ public:
      *@param chrms: Input chromosome.
     */
     static int grade(const Chromosome& chrms) {
-        const double C = 1e3;// Using to adjust the range of return value.
-        return int(C / (chrms.g1 * chrms.g1 + chrms.g2 * chrms.g2) * 100);
+        const double C = 1;// Using to adjust the range of return value.
+        // return int(C / (chrms.g1 + chrms.g2 * chrms.g2) * 100);
+        return int(-(chrms.g1 * chrms.g1 + chrms.g2 * chrms.g2) * C);
     }
 
     /**
@@ -78,6 +80,12 @@ public:
             nextGeneration();
         }
         cout << "Best: " << gnrtn.back().g1 << ":" << gnrtn.back().g2 << endl;
+
+        // for (size_t i = 0; i < 50; i++)
+        // {
+        //     cout << Chromosome::randGene() << ' ';
+        // }
+        
     }
 
     /**
